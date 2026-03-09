@@ -2,71 +2,180 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Metin2 Server - Kayıt Ol</title>
+  <meta name="viewport" content="width=1280, initial-scale=0.28, maximum-scale=1.0, user-scalable=yes">
+  <title>Metin2 | Kayıt Ol</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header class="topbar">
-    <div class="container nav">
-      <div class="logo">METIN2 <span>SERVER</span></div>
+  <div class="page-wrap">
+    <div class="site-bg">
 
-      <nav class="menu">
-        <a href="index.html">Ana Sayfa</a>
-        <a href="kayit.html" class="active">Kayıt Ol</a>
-        <a href="indir.html">İndir</a>
-      </nav>
-    </div>
-  </header>
+      <header class="top-banner">
+        <div class="banner-overlay"></div>
+        <div class="banner-inner">
+          <div class="char left-char"></div>
 
-  <section class="sub-hero">
-    <div class="sub-hero-overlay"></div>
-    <div class="container sub-hero-content">
-      <span class="mini-title">Hesap Oluştur</span>
-      <h1>Kayıt Ol</h1>
-      <p>Yeni bir karakter yarat ve savaş dünyasına giriş yap.</p>
-    </div>
-  </section>
-
-  <section class="form-section">
-    <div class="container">
-      <div class="form-box">
-        <h2>Oyuncu Kayıt Formu</h2>
-        <p class="form-desc">Bilgilerini eksiksiz doldur ve maceraya başla.</p>
-
-        <form>
-          <div class="form-group">
-            <label for="username">Kullanıcı Adı</label>
-            <input type="text" id="username" placeholder="Kullanıcı adını gir">
+          <div class="banner-center">
+            <h1>Metin2 | Kayıt Ol</h1>
+            <p>Yeni hesabını oluştur ve oyuna hemen başla</p>
           </div>
 
-          <div class="form-group">
-            <label for="email">E-posta</label>
-            <input type="email" id="email" placeholder="E-posta adresini gir">
+          <div class="char right-char"></div>
+        </div>
+      </header>
+
+      <main class="layout">
+
+        <aside class="sidebar">
+          <div class="box">
+            <div class="box-title">Hızlı Menü</div>
+            <div class="box-body menu-list">
+              <a href="index.html">Anasayfa</a>
+              <a href="kayit.html">Hesap Oluştur</a>
+              <a href="indir.html">Oyunu İndir</a>
+              <a href="oyuncu-listesi.html">Oyuncu Listesi</a>
+              <a href="lonca-listesi.html">Lonca Listesi</a>
+              <a href="#">Nesne Market</a>
+              <a href="#">Destek Sistemi</a>
+              <a href="#">Forum</a>
+              <a href="#">Facebook</a>
+              <a href="#">Ban Sorgulama</a>
+              <a href="#">Oyun Tanıtımı</a>
+            </div>
           </div>
 
-          <div class="form-group">
-            <label for="password">Şifre</label>
-            <input type="password" id="password" placeholder="Şifreni gir">
+          <div class="box">
+            <div class="box-title">Sıralama</div>
+            <div class="box-body ranking-list">
+              <div class="rank-row"><span>1. Broadway</span><strong>300</strong></div>
+              <div class="rank-row"><span>2. Veysel</span><strong>280</strong></div>
+              <div class="rank-row"><span>3. Savasci</span><strong>250</strong></div>
+              <div class="rank-row"><span>4. NinjaTR</span><strong>220</strong></div>
+            </div>
           </div>
 
-          <div class="form-group">
-            <label for="password2">Şifre Tekrar</label>
-            <input type="password" id="password2" placeholder="Şifreni tekrar gir">
+          <div class="box">
+            <div class="box-title">Oyun İstatistikleri</div>
+            <div class="box-body stats-list">
+              <div class="stat-line"><span>Girişler</span><strong>Aktif</strong></div>
+              <div class="stat-line"><span>Kanallar</span><strong>4</strong></div>
+              <div class="stat-line"><span>Online Oyuncu</span><strong>1248</strong></div>
+              <div class="stat-line"><span>Bugün Girenler</span><strong>95</strong></div>
+              <div class="stat-line"><span>Toplam Kayıt</span><strong>5630</strong></div>
+              <div class="stat-line"><span>Toplam Lonca</span><strong>241</strong></div>
+            </div>
+          </div>
+        </aside>
+
+        <section class="content">
+          <div class="main-box kayit-box">
+            <div class="box-title center-title">Metin2 | Kayıt Ol</div>
+
+            <div class="main-box-body page-panel">
+              <div class="panel-inner">
+
+                <form class="panel-form">
+                  <div class="form-group">
+                    <label>Adınız ve Soyadınız:</label>
+                    <input type="text">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Kullanıcı Adı:</label>
+                    <input type="text">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Şifre:</label>
+                    <input type="password">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Şifre (Tekrar):</label>
+                    <input type="password">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Pin:</label>
+                    <input type="password">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Karakter Silme Kodu:</label>
+                    <input type="password">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Telefon Numarası:</label>
+                    <input type="text">
+                  </div>
+
+                  <div class="form-group">
+                    <label>E-Posta:</label>
+                    <input type="email">
+                  </div>
+
+                  <div class="form-group panel-center">
+                    <label>Güvenlik Captcha:</label>
+                    <div class="fake-captcha">6635C</div>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Güvenlik Kodu:</label>
+                    <input type="text">
+                  </div>
+
+                  <div class="checkbox-row">
+                    <input type="checkbox" id="sozlesme" checked>
+                    <label for="sozlesme">Üyelik ve Hizmet Sözleşmesi'ni okudum ve kabul ediyorum.</label>
+                  </div>
+
+                  <div class="submit-row">
+                    <button type="submit" class="small-btn">Kayıt Ol</button>
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <aside class="sidebar">
+          <div class="box">
+            <div class="box-title">Kullanıcı Paneli</div>
+            <div class="box-body login-box">
+              <a href="#" class="login-link">Giriş Yap</a>
+              <input type="text" placeholder="Kullanıcı Adı">
+              <input type="password" placeholder="Parola">
+              <button>Giriş Yap</button>
+
+              <div class="login-help">
+                <a href="#">Kullanıcı adımı unuttum?</a>
+                <a href="#">Parolamı unuttum?</a>
+              </div>
+            </div>
           </div>
 
-          <button type="submit" class="btn btn-gold full">Kayıt Ol</button>
-        </form>
-      </div>
+          <div class="box">
+            <div class="box-title">Sıralama</div>
+            <div class="box-body ranking-list">
+              <div class="rank-row"><span>1. MYKS</span><strong>75</strong></div>
+              <div class="rank-row"><span>2. NiqaByte</span><strong>73</strong></div>
+              <div class="rank-row"><span>3. Mesut</span><strong>48</strong></div>
+              <div class="rank-row"><span>4. AdminPortal</span><strong>39</strong></div>
+            </div>
+          </div>
+        </aside>
+
+      </main>
+
+      <footer class="footer">
+        <p>Copyright © 2026 Metin2 - Tüm hakları saklıdır.</p>
+      </footer>
+
     </div>
-  </section>
-
-  <footer class="footer">
-    <div class="copyright">
-      © 2026 Metin2 Server - Tüm hakları saklıdır.
-    </div>
-  </footer>
+  </div>
 
 </body>
 </html>

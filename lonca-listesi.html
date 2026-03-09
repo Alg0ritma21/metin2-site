@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1280, initial-scale=0.28, maximum-scale=1.0, user-scalable=yes">
-  <title>Metin2 | Oyunu İndir</title>
+  <title>Lonca Listesi</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,8 +17,8 @@
           <div class="char left-char"></div>
 
           <div class="banner-center">
-            <h1>Metin2 | Oyunu İndir</h1>
-            <p>Güncel client dosyasını indirerek oyuna katıl</p>
+            <h1>Lonca Sıralama</h1>
+            <p>Sunucudaki loncaları görüntüle</p>
           </div>
 
           <div class="char right-char"></div>
@@ -70,35 +70,60 @@
 
         <section class="content">
           <div class="main-box">
-            <div class="box-title center-title">Metin2 | Oyunu İndir</div>
+            <div class="box-title center-title">Metin2 | Lonca Sıralama</div>
 
             <div class="main-box-body page-panel">
               <div class="panel-inner">
 
-                <p class="download-note">
-                  Buraya indirme ile ilgili metin ve yazı link resim koyabilirsiniz.
-                </p>
+                <form class="panel-form">
+                  <div class="form-group">
+                    <select>
+                      <option>Lonca Listesi</option>
+                    </select>
+                  </div>
 
-                <h3 class="download-title">Dosyalar</h3>
+                  <div class="form-group panel-space-top">
+                    <label>Loncanın Adı:</label>
+                    <input type="text">
+                  </div>
 
-                <table class="download-table-2">
-                  <thead>
-                    <tr>
-                      <th>Pack</th>
-                      <th>Açıklama</th>
-                      <th>Boyutu</th>
-                      <th>Linkler</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Full Client</td>
-                      <td class="left">Metin2 TR'ye gerek kalmadan indirip oyuna direkt girebileceğiniz pack dosyasıdır.</td>
-                      <td></td>
-                      <td>Alternatif Link #1</td>
-                    </tr>
-                  </tbody>
-                </table>
+                  <div class="panel-center">
+                    <button type="button" class="small-btn">Bul</button>
+                  </div>
+                </form>
+
+                <div class="table-wrap">
+                  <table class="classic-table">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>İsim</th>
+                        <th>Level</th>
+                        <th>Puan</th>
+                        <th>Bayrak</th>
+                        <th>Üyeler</th>
+                        <th>Lider</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td class="left">Broadway</td>
+                        <td>4</td>
+                        <td>3000</td>
+                        <td><span class="flag-box">TR</span></td>
+                        <td>1</td>
+                        <td>Mesut</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="pagination">
+                  <button type="button" class="small-btn">Önceki</button>
+                  <span class="page-num">1</span>
+                  <button type="button" class="small-btn">Sonraki</button>
+                </div>
 
               </div>
             </div>
@@ -126,20 +151,4 @@
             <div class="box-body ranking-list">
               <div class="rank-row"><span>1. MYKS</span><strong>75</strong></div>
               <div class="rank-row"><span>2. NiqaByte</span><strong>73</strong></div>
-              <div class="rank-row"><span>3. Mesut</span><strong>48</strong></div>
-              <div class="rank-row"><span>4. AdminPortal</span><strong>39</strong></div>
-            </div>
-          </div>
-        </aside>
-
-      </main>
-
-      <footer class="footer">
-        <p>Copyright © 2026 Metin2 - Tüm hakları saklıdır.</p>
-      </footer>
-
-    </div>
-  </div>
-
-</body>
-</html>
+              <div class="rank-row
